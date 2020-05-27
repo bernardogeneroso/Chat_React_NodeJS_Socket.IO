@@ -1,0 +1,88 @@
+body {
+  font-size: 28px;
+}
+
+.content {
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #18191a;
+  color: white;
+}
+
+.contentText {
+  height: 100%;
+  width: 100%;
+}
+
+.contentTextAlign {
+  height: 90%;
+  padding: 26px;
+  overflow: auto;
+}
+
+.contentAlignDown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  bottom: 18px;
+}
+
+.contentAlignDown input {
+  border-radius: 18px;
+  border: 0px;
+  display: flex;
+  flex: 1 1 auto;
+  margin: 0px 24px 0px 24px;
+  min-width: 100px;
+  padding: 12px;
+}
+
+.contentAlignDown button {
+  margin: 12px;
+}
+
+.speech-bubble-left {
+  position: relative;
+  background: #373737;
+  color: white;
+  border-radius: 0.4em;
+  width: fit-content;
+  padding: 8px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.speech-bubble-left .username {
+  font-size: 10px;
+}
+
+.speech-bubble-right {
+  position: relative;
+  background: #ff6908;
+  color: white;
+  border-radius: 0.4em;
+  width: fit-content;
+  padding: 8px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.speech-bubble-right .username {
+  font-size: 10px;
+  text-align: end;
+}
+
+.contentTextAlign .leftAlign {
+  display: flex;
+}
+
+.contentTextAlign .rightAlign {
+  display: flex;
+  justify-content: flex-end;
+}
